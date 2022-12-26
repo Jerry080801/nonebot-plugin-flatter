@@ -8,7 +8,7 @@
 
 # nonebot-plugin-antirecall
 
-_✨ NoneBot 防撤回插件 ✨_
+_✨ NoneBot 恭维 ✨_
 
 
 <a href="./LICENSE">
@@ -72,16 +72,3 @@ _✨ NoneBot 防撤回插件 ✨_
 ### 指令表
 | 指令 | 说明 |
 |:-----:|:----:|
-| 开启/添加防撤回, enable + 群号1 群号2 ...|开启群的防撤回 |
-| 关闭/删除防撤回, disable + 群号1 群号2 ...|关闭群的防撤回 |
-| 查看防撤回群聊 |查看防撤回群聊 |
-| 开启/关闭绕过管理层 |管理员/群主不会被防撤回,仅限群内 |
-| 防撤回菜单 |打开本插件菜单 |
-| 开启/关闭防撤回私聊gid uid |超级管理员私聊使用,gid群号的群撤回消息会私聊给uid的用户,如果群没开启防撤回就不生效 |
-| 查看防撤回私聊 |查看私聊列表,私聊使用,会返回json数据.|
-| 开启防撤回私聊 gid |设置防撤回触发后监听的群,一个参数群号(ps.仅限一个群[建议是一个私人小群专门用来干这事]重新设置会覆盖)|
-| 关闭防撤回私聊 |无参数,删除这个监听群,不监听 |
-| 查看防撤回监听 |查看监听的群和发送的群,一个json |
-| 添加/删除防撤回监听 gid|添加防撤回被监听的群,一次一个[不建议太多,会风控]|
-
-Tips防撤回的英文指令 : enable/disable, enable/disable here, bypass/no bypass here, clear list, antirecall menu, enable/disable private msg, enable/disable/add/remove/view listener, list private msg
